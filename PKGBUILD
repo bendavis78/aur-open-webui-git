@@ -6,7 +6,7 @@ _appdataprefix="/var/opt"
 
 pkgname="${_appname}-git"
 pkgrel=1
-pkgver="0.3.5.r0.g9e4dd4b"
+pkgver=0.3.6.r4.g24b638f
 pkgdesc="Web UI and OpenAI API for various LLM runners, including Ollama"
 arch=("x86_64")
 url="https://openwebui.com/"
