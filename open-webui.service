@@ -9,7 +9,7 @@ Group=open-webui
 WorkingDirectory=/opt/open-webui
 Environment=PYTHONUNBUFFERED=1
 EnvironmentFile=/etc/open-webui.conf
-ExecStart=/bin/bash -c "cd /opt/open-webui/backend && . ./venv/bin/activate && start.sh"
+ExecStart=/bin/bash -c "cd /opt/open-webui/backend && source ./venv/bin/activate && bash start.sh"
 
 Restart=on-failure
 
